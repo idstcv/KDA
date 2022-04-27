@@ -25,7 +25,7 @@ import loss as lo
 import torchvision
 import resnet_cifar as resnet
 
-parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')
+parser = argparse.ArgumentParser(description='PyTorch Training')
 parser.add_argument('data', metavar='DIR',
                     help='path to dataset')
 parser.add_argument('-j', '--workers', default=4, type=int, metavar='N',
